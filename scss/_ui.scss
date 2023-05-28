@@ -1,0 +1,14 @@
+$main-color: #000;
+$primary-color: #B17FCF;
+$secondary-color: #7FCFC5;
+$text: #fff;
+$text-secondary: #AAAAAA;;
+$transition: all .5s ease;
+$font: 'Benzin', sans-serif;
+
+.full {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

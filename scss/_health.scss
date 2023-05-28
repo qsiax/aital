@@ -1,0 +1,14 @@
+.health {
+    background: linear-gradient(180deg, #B64F4F 0%, #E3B6D6 98.19%);
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+    }
+}

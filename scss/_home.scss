@@ -1,0 +1,25 @@
+.home {
+    background: linear-gradient(180deg, #3F2B5C 23.59%, #1B6E91 129.4%);
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 88px;
+        letter-spacing: 0.215em;
+        color: $primary-color;
+    }
+
+    &__text {
+        margin-left: 53%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        min-width: 800px;
+    }
+}

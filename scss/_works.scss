@@ -1,0 +1,161 @@
+.works {
+
+    &__container {
+    }
+
+    &__body {
+        * {
+            color: $main-color;
+        }
+        margin-bottom: 200px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        margin-top: 300px;
+        margin-bottom: 80px;
+    }
+
+    &__item-body {
+
+    }
+
+    &__item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:nth-child(1) {
+            .works__item {
+                &:nth-child(1) {
+                    background: url(/source/1.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(/source/2.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            .works__item {
+                &:nth-child(1) {
+                    background: url(/source/3.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(/source/4.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+
+        &:nth-child(3) {
+            .works__item {
+                &:nth-child(1) {
+                    background: url(/source/5.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(/source/6.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+
+        &:nth-child(4) {
+            .works__item {
+                &:nth-child(1) {
+                    background: url(/source/7.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(/source/8.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+
+        &:nth-child(5) {
+            .works__item {
+                &:nth-child(1) {
+                    background: url(/source/9.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(/source/10.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+
+        &:nth-child(6) {
+            .works__item {
+                &:nth-child(1) {
+                    background: url(/source/11.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &:nth-child(2) {
+                    background: url(/source/12.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    &__item {
+        width: 800px;
+        height: 524px;
+    }
+}
+
+.footer {
+    height: 493px;
+    background: url(/source/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        margin-top: 225px;
+        margin-bottom: 146px;
+    }
+
+    &__el-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__el {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
